@@ -14,7 +14,7 @@ class StockMetrics(StockData):
         self.load()
 
     def average01(self):
-        """pt1
+        """pt1 new code
         """
         averages = []
         for row in self.data:

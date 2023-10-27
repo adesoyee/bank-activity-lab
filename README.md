@@ -1,28 +1,19 @@
 # README
+The purpose of this project is to engineer a pipeline in Python to analyze stock data. The pipeline will be used by the machine learning team to restructure terabytes of data, which will subsequently be integrated with daily news headline data to measure how reliably sentiment predicts stock price. I am to complete the data engineering project my classmate started.
 
-Credit to the [Data Science Working Group](http://datascience.codeforsanfrancisco.org) for this template. To complete this project, delete all template text (save for the headers) and fill in your own information.
-
-Begin reading `instructions.md` to get started.
-
-## Project Intro/Objective
-The purpose of this project is ________. (Describe the main goals of the project and potential civic impact. Limit to a short paragraph, 3-6 Sentences)
-
-### Methods Used
+Methods Used
 * Inferential Statistics
+* Data ingestion
 * Machine Learning
 * Data Visualization
+* Scalability and Performance
+* Data Restructuring
 * Predictive Modeling
-* etc.
 
-### Technologies
-* R 
+Technologies
 * Python
-* D3
-* PostGres, MySql
 * Pandas, jupyter
-* HTML
-* JavaScript
-* etc. 
+* JavaScript 
 
-## Project Description
-(Provide more detailed overview of the project.  Talk a bit about your data sources and what questions and hypothesis you are exploring. What specific data analysis/visualization and modelling work are you using to solve the problem? What blockers and challenges are you facing?  Feel free to number or bullet point things here)
+Project Description
+As a data engineer at Banking Objects of Portugal (BOofP), a leading national consumer bank, I have been tasked with the development of a data analysis pipeline in Python. This pipeline will play a critical role in the bank's efforts to harness the power of data and enhance decision-making processes, particularly in the realm of stock market analysis. The primary objective of this project is to facilitate the machine learning team's work in restructuring terabytes of historical stock market data. This restructured data will then be integrated with daily news headlines, allowing BOofP to measure the reliability of sentiment analysis in predicting stock prices. The use of data Restructuring was used. The machine learning team relies on the pipeline to efficiently restructure and preprocess the raw data. This includes cleaning, transformation, and feature engineering to make the data suitable for predictive modeling. A challenge when working on this was contionously getting error codes due to not saving before running the validation code.
